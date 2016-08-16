@@ -1,0 +1,64 @@
+<head>
+</head>
+<body>
+
+  <header>
+    <div class="outter-container">
+      <div class="header-bar">
+        <a class="logo" href="/"></a>
+      </div>
+      <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li role="presentation" class="active"><a class="page-scroll" href="#about">About</a></li>
+          <li role="presentation"><a class="page-scroll" href="#faq">FAQ</a></li>
+          <li role="presentation"><a class="page-scroll" href="#schedule">Schedule</a></li>
+          <li role="presentation"><a class="page-scroll" href="#volunteer">Volunteer</a></li>
+          <li role="presentation"><a class="page-scroll" href="http://docs.railsbridge.org/docs/">Curriculum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="jumbotron">
+    <h1 class="display-3" style="text-align:center">Everyone can code!</h1>
+    <div style="background-image: image-url('logo.png'); height: 100px; width: 100px;"></div>
+
+    <p class="lead">Want to stay up to date with all of our workshops?
+      Sign up below for our mailing list and we'll let you know as events are announced!</p>
+    <hr class="m-y-2">
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button" style="text-align: center">Join our mailing list!</a>
+    </p>
+  </div>
+
+  <div class="jumbotron">
+    <h3>We're Here to Help</h3>
+    <p>
+      We welcome you to the Philly Ruby community. Whatever your goal is in learning to program, we will connect you with the tools to take the next step.
+    </p>
+    <p>
+      Lead by an all-volunteer team of experienced and enthusiastic Ruby and Rails developers, the workshop will introduce attendees who have little or no programming experience to the concepts, tools, and techniques of Ruby and Rails development.
+    </p>
+
+    <p>
+      RailsBridge workshops are a fun and free way to to get started or level up with Rails, Ruby, and other web technologies. Our events focus on increasing diversity in tech so that people of all backgrounds can feel comfortable in our industry.
+    </p>
+
+    <button>
+      Register for Free
+    </button>
+  </div>
+
+  <div id="faq" class="jumbotron">
+    <%= render partial: "faq" %>
+  </div>
+
+  <div id="schedule" class="jumbotron">
+    <%= render partial: "schedule" %>
+  </div>
+
+  <div id="volunteer" class="jumbotron">
+    <%= render partial: "volunteer" %>
+  </div>
+</body>
+
