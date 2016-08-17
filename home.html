@@ -3,35 +3,35 @@
 <body>
 
   <header>
-    <div class="outter-container">
-      <div class="header-bar">
+    <div>
+      <div>
         <a class="logo" href="/"></a>
       </div>
-      <nav class="navbar navbar-default">
-        <ul class="nav navbar-nav">
-          <li role="presentation" class="active"><a class="page-scroll" href="#about">About</a></li>
-          <li role="presentation"><a class="page-scroll" href="#faq">FAQ</a></li>
-          <li role="presentation"><a class="page-scroll" href="#schedule">Schedule</a></li>
-          <li role="presentation"><a class="page-scroll" href="#volunteer">Volunteer</a></li>
-          <li role="presentation"><a class="page-scroll" href="http://docs.railsbridge.org/docs/">Curriculum</a></li>
+      <nav>
+        <ul>
+          <li href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="http://docs.railsbridge.org/docs/">Curriculum</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <div class="jumbotron">
-    <h1 class="display-3" style="text-align:center">Everyone can code!</h1>
-    <div style="background-image: image-url('logo.png'); height: 100px; width: 100px;"></div>
+  <div>
+    <h1 style="text-align:center">Everyone can code!</h1>
 
-    <p class="lead">Want to stay up to date with all of our workshops?
-      Sign up below for our mailing list and we'll let you know as events are announced!</p>
-    <hr class="m-y-2">
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button" style="text-align: center">Join our mailing list!</a>
+    <p>Want to stay up to date with all of our workshops?
+      Sign up below for our mailing list and we'll let you know as events are announced!
+    </p>
+    <hr>
+    <p>
+      <a href="#" style="text-align: center">Join our mailing list!</a>
     </p>
   </div>
 
-  <div class="jumbotron">
+  <div>
     <h3>We're Here to Help</h3>
     <p>
       We welcome you to the Philly Ruby community. Whatever your goal is in learning to program, we will connect you with the tools to take the next step.
@@ -49,16 +49,11 @@
     </button>
   </div>
 
-  <div id="faq" class="jumbotron" src="faq.html">
-    
-  </div>
+  <div id="faq" src="faq.html"></div>
 
-  <div id="schedule" class="jumbotron">
-    <%= render partial: "schedule" %>
-  </div>
+  <div id="schedule"></div>
 
-  <div id="volunteer" class="jumbotron">
-    <%= render partial: "volunteer" %>
-  </div>
+  <div id="volunteer"></div>
+
 </body>
 
