@@ -10,156 +10,204 @@
   </head>
   <body>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation for Sites</h1>
+    <title>RailsBridge PHL</title>
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="http://docs.railsbridge.org/docs/">Curriculum</a></li>
+        </ul>
       </div>
-    </div> 
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="#about"><img src="assets/img/avatar.png" alt="avatar"></a></li>
+        </ul>
       </div>
     </div>
     
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+    <div id="about">
+      <img src="assets/img/logo.png" alt="logo">
+      <h1 style="text-align:center">Everyone can code!</h1>
+      <p>Want to stay up to date with all of our workshops?
+        Sign up below for our mailing list and we'll let you know as events are announced!
+      </p>
     
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="primary callout">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="input-group">
-                  <input class="input-group-field" type="text" placeholder="input-group" />
-                  <span class="input-group-label">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+      <hr>
     
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>          
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
+      <p>
+        <a href="#" style="text-align: center">Join our mailing list!</a>
+      </p>
+    
+      <h3>We're Here to Help</h3>
+    
+      <p>
+        We welcome you to the Philly Ruby community. Whatever your goal is in learning to program, we will connect you with the tools to take the next step.
+      </p>
+    
+      <p>
+        Lead by an all-volunteer team of experienced and enthusiastic Ruby and Rails developers, the workshop will introduce attendees who have little or no programming experience to the concepts, tools, and techniques of Ruby and Rails development.
+      </p>
+    
+      <p>
+        RailsBridge workshops are a fun and free way to to get started or level up with Rails, Ruby, and other web technologies. Our events focus on increasing diversity in tech so that people of all backgrounds can feel comfortable in our industry.
+      </p>
+    
+      <button>
+        Register for Free
+      </button>
+    
+    </div>
+    
+    <div id="faq">
+      <h3>Frequently Asked Questions</h3></br>
+    
+      <p id="question" style="font-style:italic;">
+        What is the goal/purpose of RailsBridge PHL?
+      </p>
+    
+      <p id="answer">
+        RailsBridge PHL is our local chapter of RailsBridge. As you may have heard, the tech community has a big problem when it comes to diversity. The makeup of many tech companies does not match the community they serve, largely underrepresenting women, people of color, and LGBTQ people. We hold a free Intro to Rails event a few times a year in the Triangle area in order to introduce web development to the broader community. We're trying to make the tech community more diverse by providing a welcoming environment where underrepresented populations can feel comfortable getting started.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Is this event for me?
+      </p>
+      <p id="answer">
+        Our focus is on providing opportunities for underrepresented populations in tech. If you are not a member of an underrepresented group in tech, you are welcome to attend as a student as long as you come as the guest of someone who is. You can indicate this on the signup form. Everyone is welcome to help out as a TA, regardless of their membership in an underrepresented group.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Do I need previous programming experience to attend?
+      </p>
+      <p id="answer">
+        The curriculum we cover is best suited for those with little to no previous programming experience. If you've managed to view this website, you have all the knowledge necessary to succeed at programming! If you already have some experience with Ruby and Rails, this event may include a lot of recap for you, but may still be useful. If you are comfortable with Ruby and Rails, you are welcome to help out as a teaching assistant.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        I don't want to become a web developer, is this still for me?
+      </p>
+      <p id="answer">
+        Yes! Most of the people who attend these events do not go on to do web development professionally. Whether you're more into design or the business side, this event is perfect for those that just want to get an idea of what web development is like.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Will I be able to code after this?
+      </p>
+      <p id="answer">
+        A little. Enough to get a job? No, probably not. The goal of this event is to introduce you to Ruby on Rails and web development in general. Consider this a preview. We want to show you enough for you to be able to decide if you'd like to continue learning. Towards the end of the event, we will talk about the best ways to proceed if you do decide you like it.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Will there be food?
+      </p>
+      <p id="answer">
+        Yes! Our gracious sponsors will be providing three meals during the event: dinner (during the Installfest), breakfast, and lunch. The Installfest dinner (Friday night) is usually something like pizza. The main event (Saturday) starts with a light breakfast, normally including things like bagels, coffee, and muffins. After working in the morning, we'll have a lunch of something like sandwiches or wraps. We are happy to accomodate any dietary restrictions. You can indicate these when you sign up.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        How many people will be there?
+      </p>
+      <p id="answer">
+        Our events have between 30-50 students with 10-20 teaching assistants.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Can I skip the Installfest?
+      </p>
+      <p id="answer">
+        No, you need to attend both days. The Installfest is an essential part of the event where we make sure you have everything necessary to go through the curriculum. If you think your machine is already setup, great! Come to the Installfest and one of our TAs can verify your setup and you can enjoy some free food!
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Who will be teaching?
+      </p>
+      <p id="answer">
+        Our teaching assistants are made up of previous RailsBridge participants, students from local tech schools, and members of the local tech community. They are here to help you out with the curriculum as well as to help with any other general questions you might have about programming/working in tech.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Is there a Code of Conduct/Anti-harassment policy?
+      </p>
+      <p id="answer">
+        Yes, RailsBridge Triangle is dedicated to a harassment-free conference experience for everyone. For more details, see the full BridgeFoundry Code of Conduct.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        Will I be photographed?
+      </p>
+      <p id="answer">
+        We may have a photographer during the event take some photos for this website. We also usually take a group photo in the afternoon. When you sign in, you will be presented with a photo release form if you are willing to have your photo taken. If you don't want to be photographed, you can let us know then and we will make sure the photographer is aware of your wishes.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        What happens at the event?
+      </p>
+      <p id="answer">
+        See our Schedule page for an idea of how the event will work. The Installfest (Friday night) is spent mostly working through an install guide for getting Ruby and everything else set up for Saturday. On Saturday we work through the RailsBridge Intro to Rails curriculum. The curriculum is largely self-driven. We'll point you in the right direction and let you work through the exercises at your own pace. TAs will circulate and help you out with any questions. We will also have a few 10-20 minute presentations to introduce main concepts.
+      </p>
+    
+      <p id="question" style="font-style:italic;">
+        What do I need to bring?
+      </p>
+      <p id="answer">
+        All you need to bring is a working laptop computer that can connect to the internet via WiFi (and its charger). We will help you install everything you need on Friday night during the Installfest. You may want to bring a jacket as the AC in some places can get a little chilly. Also, some people like to bring paper/pens to take notes so they don't have to switch between things while using their computer.
+      </p>
+    </div>
+    
+    <div id="schedule">
+      <h3>Schedule</h3></br>
+      <p style="font-style: italic">Coming soon!</p>
+      <!-- Friday, June 24
+    
+      06:30 pm - 08:30 pm
+      Installfest
+    
+      Bring your laptop and we'll help you get everything you need installed and ready for the big day. Food will be provided!
+    
+      Saturday, June 25
+    
+      09:00 am
+      Breakfast
+    
+      Eat some breakfast (generously provided by thoughtbot) and relax a bit before we dive into the class.
+    
+      09:30 am
+      Class begins
+    
+      After some introductory talks, we'll work our way through the Intro to Rails curriculum.
+    
+      12:30 pm
+      Lunch
+    
+      Recharge with some lunch before finishing up the curriculum.
+    
+      04:00 pm - 04:30 pm
+      Wind-down
+    
+      We'll talk about where you can go from here and say our goodbyes.
+    
+      05:00 pm - ? (optional)
+      Afterparty
+    
+      Head to a local bar or restaurant, get some drinks and appetizers, and celebrate all the awesome new things you've learned! This is a great chance to ask your TAs about what it's like to work as a developer. I'm sure they'd love to answer any questions you can throw at them.
+       -->
+    </div>
+    
+    <div id="volunteer">
+      <h3>Volunteer to TA</h3></br>
+      <p>
+        RailsBridge is built on volunteer efforts. In order to run a successful workshop, we need volunteers to help out students as they learn. The number one thing we look for in a TA is a willingness to help. You should have a beginner's understanding of Rails and be excited about helping others learn.
+    
+        Previous participants make excellent TAs! After you have enjoyed our workshop before, we would love for you to come back and help new beginners on their journey.
+    
+        You can find more information about being a TA here: http://www.railsbridge.org/help/teach
+    
+        Give a talk!
+    
+        We have 5 lectures during our workshop. The content is set ahead of time, but we encourage you to put your own spin on it. Please let us know if you are interested in speaking!
+      </p>
     </div>
     
 
