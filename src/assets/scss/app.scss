@@ -54,7 +54,47 @@
   max-width: 1400px;
 }
 
-$text-color: #fff;
+$text-color: #494949;
+
+.row{
+  color: $text-color;
+}
+
+h3 {
+  font-style: italic;
+}
+
+h5 {
+  padding: 1.5em;
+}
+
+#signup {
+  padding-top: 7em;
+  height: 100vh;
+}
+
+#about {
+  background-color: #f6f6f6;
+  height: 100vh;
+  padding-top: 10em;
+}
+
+#faq{
+  height: 100vh;
+  padding-top: 3em;
+}
+
+#schedule {
+  height: 100vh;
+  background-color: #f6f6f6;
+  padding-top: 3em;
+}
+
+#volunteer{
+  padding-top: 10em;
+  height: 100vh;
+}
+
 
 // header CSS
 
@@ -63,7 +103,7 @@ $text-color: #fff;
 }
 
 .menu li a {
-  color: $text-color;
+  color: white;
 }
 
 // footer CSS
@@ -72,7 +112,7 @@ $text-color: #fff;
   background-color: #989898;
   padding: 2rem 4rem;
   text-align: center;
-  color: $text-color;
+  color: white;
   i {
     font-size: 100px;
   }
