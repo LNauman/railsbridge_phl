@@ -68,31 +68,32 @@ h5 {
   padding: 1.5em;
 }
 
+.question {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 #signup {
-  padding-top: 7em;
-  height: 100vh;
+  padding: 7em;
 }
 
 #about {
   background-color: #f6f6f6;
-  height: 100vh;
-  padding-top: 10em;
+  padding: 10em;
 }
 
-#faq{
-  height: 100vh;
-  padding-top: 3em;
+#faq, #schedule{
+  padding: 3em;
 }
 
 #schedule {
-  height: 100vh;
   background-color: #f6f6f6;
-  padding-top: 3em;
 }
 
 #volunteer{
-  padding-top: 10em;
-  height: 100vh;
+  padding: 10em;
+  
 }
 
 
