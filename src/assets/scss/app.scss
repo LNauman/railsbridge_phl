@@ -64,8 +64,16 @@ h3 {
   font-style: italic;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 h5 {
   padding: 1.5em;
+}
+
+.description {
+  font-style: italic;
 }
 
 .question {
@@ -93,6 +101,8 @@ h5 {
 
 #volunteer{
   padding: 10em;
+  background-color: white;
+
 }
 
 #header-bar {
