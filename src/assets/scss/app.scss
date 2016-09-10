@@ -60,11 +60,11 @@ $text-color: #494949;
   color: $text-color;
 }
 
-h3 {
+h3, .question, .description {
   font-style: italic;
 }
 
-h4 {
+h4, .question {
   font-weight: bold;
 }
 
@@ -72,26 +72,29 @@ h5 {
   padding: 1.5em;
 }
 
-.description {
-  font-style: italic;
+.friday {
+  padding-top: 5em;
 }
 
 .question {
-  font-style: italic;
-  font-weight: bold;
   font-size: 1.1em;
+}
+
+#email-signup {
+  float: none;
+}
+
+#about {
+  background-color: #f6f6f6;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 
 #signup {
   padding: 7em;
 }
 
-#about {
-  background-color: #f6f6f6;
-  padding: 10em;
-}
-
-#faq, #schedule{
+#faq, #schedule, .hello, #volunteer{
   padding: 3em;
 }
 
@@ -100,13 +103,7 @@ h5 {
 }
 
 #volunteer{
-  padding: 10em;
   background-color: white;
-
-}
-
-#header-bar {
-  width: 100%;
 }
 
 
@@ -118,6 +115,10 @@ h5 {
 
 .menu li a {
   color: white;
+}
+
+#header-bar {
+  width: 100%;
 }
 
 // footer CSS
