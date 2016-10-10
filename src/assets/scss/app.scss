@@ -50,34 +50,45 @@
 @include motion-ui-animations;
 
 
+$text-color: #494949;
+
+p {
+  font-size: 1.2em;
+}
+
+.answer {
+  font-size: 1em;
+}
+
 .full-width {
   max-width: 1400px;
 }
 
-$text-color: #494949;
-
-.row{
+.row {
   color: $text-color;
 }
 
-h3, .question, .description {
+h3, .answer, .description {
   font-style: italic;
+}
+
+h3 {
+  color: #8C001A;
+  font-weight: bold;
 }
 
 h4, .question {
   font-weight: bold;
+  color: #E55451;
 }
 
 h5 {
-  padding: 1.5em;
-}
-
-.friday {
-  padding-top: 5em;
+  color: #E55451;
+  font-style: italic;
 }
 
 .question {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 #email-signup {
