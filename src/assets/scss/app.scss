@@ -50,101 +50,135 @@
 @include motion-ui-animations;
 
 
+/*COLORS*/
+
 $text-color: #494949;
+$rb-pink: #EB6852;
+$rb-maroon: #831A27;
+$section-background: #f6f6f6;
+$rb-dark-grey: #989898;
+
+/*ELEMENTS*/
+
+body {
+  font-family: Tisa Sans Pro;
+}
+
+.button {
+  background-color: $rb-pink;
+  border-radius: 7px;
+  &:hover {
+    background-color: $rb-maroon;
+  }
+  a {
+    color: white;
+    &:hover {
+      color: white
+    }
+    &:visited {
+      color: white
+    }
+  }
+}
+
+h3 {
+  color: $rb-maroon;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h4 {
+  color: $rb-pink;
+  font-weight: bold;
+}
+
+h5 {
+  color: $rb-pink;
+  font-style: italic;
+}
 
 p {
   font-size: 1.2em;
-}
-
-.answer {
-  font-size: 1em;
-}
-
-.full-width {
-  max-width: 1400px;
 }
 
 .row {
   color: $text-color;
 }
 
-h3, .answer, .description {
-  font-style: italic;
+#sign-up-button {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-h3 {
-  color: #8C001A;
-  font-weight: bold;
+/* HEADER CSS*/
+
+#header-bar {
+  width: 100%;
+  .top-bar {
+    background-color: $rb-dark-grey;
+    ul.menu {
+      background-color: $rb-dark-grey;
+    }
+    li a {
+      color: white;
+    }
+  }
 }
 
-h4, .question {
-  font-weight: bold;
-  color: #E55451;
-}
-
-h5 {
-  color: #E55451;
-  font-style: italic;
-}
-
-.question {
-  font-size: 1.3em;
-}
-
-#email-signup {
-  float: none;
-}
-
-#about {
-  background-color: #f6f6f6;
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
+/*SECTIONS*/
 
 #signup {
   padding: 7em;
 }
 
-#faq, #schedule, .about-container, #volunteer{
+#about {
+  padding: 10em 0;
+  max-width: 1400px;
+  background-color: $section-background;
+}
+
+#faq {
   padding: 3em;
-}
-
-#schedule {
-  background-color: #f6f6f6;
-}
-
-#volunteer{
-  background-color: white;
-}
-
-
-// header CSS
-
-.top-bar, ul.menu {
-  background-color: #989898;
-}
-
-.menu li a {
-  color: white;
-}
-
-#header-bar {
-  width: 100%;
-}
-
-// footer CSS
-
-.footer {
-  background-color: #989898;
-  padding: 2rem 4rem;
-  text-align: center;
-  color: white;
-  i {
-    font-size: 100px;
+  .answer {
+    font-size: 1em;
+    font-style: italic;
+  }
+  .question {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: $rb-pink;
   }
 }
 
+#schedule {
+  background-color: $section-background;
+  padding: 3em;
+  max-width: 1400px;
+  p.description {
+    font-style: italic;
+  }
+}
+
+#volunteer {
+  padding: 3em;
+  background-color: white;
+}
+
+/*#sponsors {
+  background-color: $section-background;
+}
+*/
+/* FOOTER CSS*/
+
 .footer {
+  color: white;
+  background-color: $rb-dark-grey;
+  padding: 2rem 4rem;
+  text-align: center;
+  i {
+    font-size: 100px;
+  }
   h4 {
     color: $text-color;
     font-size: 2em;
