@@ -108,7 +108,11 @@ p {
 #sign-up-button {
   margin: auto;
   width: 50%;
-  padding: 10px;
+  padding: 0;
+}
+
+#email-signup {
+  float: none;
 }
 
 /* HEADER CSS*/
@@ -130,12 +134,18 @@ p {
 
 #signup {
   padding: 7em;
+  ul {
+    list-style-type: none;
+  }
 }
 
 #about {
   padding: 10em 0;
   max-width: 1400px;
   background-color: $section-background;
+  .register {
+    margin-top: 3em;
+  }
 }
 
 #faq {
@@ -165,10 +175,12 @@ p {
   background-color: white;
 }
 
-/*#sponsors {
+#contact {
   background-color: $section-background;
+  max-width: 1400px;
+  padding: 10em 0;
 }
-*/
+
 /* FOOTER CSS*/
 
 .footer {
