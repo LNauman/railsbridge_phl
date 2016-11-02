@@ -77,6 +77,7 @@ body {
     }
     &:visited {
       color: white;
+      background-color: $rb-pink;
     }
   }
 }
@@ -113,6 +114,21 @@ p {
 
 #email-signup {
   float: none;
+}
+
+.highlight {
+  color: $rb-pink;
+}
+
+.rb-links {
+  font-weight: bold;
+  color: $rb-maroon;
+  a:hover {
+    color: $rb-pink;
+  }
+  &:visited {
+    color: $rb-maroon;
+  }
 }
 
 /* HEADER CSS*/
@@ -176,7 +192,6 @@ p {
 
 #volunteer {
   padding: 3em;
-  background-color: white;
 }
 
 #contact {
