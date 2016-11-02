@@ -123,7 +123,7 @@ p {
 .rb-links {
   font-weight: bold;
   color: $rb-maroon;
-  a:hover {
+  &:hover {
     color: $rb-pink;
   }
   &:visited {
