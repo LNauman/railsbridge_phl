@@ -198,14 +198,18 @@ p {
   ul {
     list-style: none;
   }
+  &.li {
+    text-align: center;
+  }
 }
 
 .sponsor-logo {
-  padding-top: 3em;
-  max-width: 50%;
+  padding-top: 2em;
 }
-.nycda-logo {
-  max-width: 20%;
+
+.logo {
+  width: 250px;
+  height: auto;
 }
 
 /* FOOTER CSS*/
