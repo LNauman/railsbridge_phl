@@ -67,18 +67,11 @@ body {
 .button {
   background-color: $rb-pink;
   border-radius: 7px;
+  &:visited {
+    background-color: $rb-pink;
+  }
   &:hover {
     background-color: $rb-maroon;
-  }
-  a {
-    color: white;
-    &:hover {
-      color: white;
-    }
-    &:visited {
-      color: white;
-      background-color: $rb-pink;
-    }
   }
 }
 
@@ -123,11 +116,11 @@ p {
 .rb-links {
   font-weight: bold;
   color: $rb-maroon;
-  &:hover {
-    color: $rb-pink;
-  }
   &:visited {
     color: $rb-maroon;
+  }
+  &:hover {
+    color: $rb-pink;
   }
 }
 
